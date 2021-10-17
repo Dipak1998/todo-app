@@ -140,14 +140,12 @@ input:focus {
   pointer-events: auto;
   z-index: 10;
   color: rgb(251, 251, 251);
+  background-color: transparent;
   -webkit-transition: color 0.15s linear;
   transition: color 0.15s linear;
   font-size: 2rem;
 }
-.fa-trash-alt {
-  /* color: red; */
-  background-color: transparent;
-}
+
 .addItems .fa-edit {
   color: rgb(47, 214, 122);
 }
